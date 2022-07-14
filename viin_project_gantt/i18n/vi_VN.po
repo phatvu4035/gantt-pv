@@ -1,0 +1,188 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* viin_project_gantt
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-13 01:21+0000\n"
+"PO-Revision-Date: 2021-11-13 01:21+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: viin_project_gantt
+#: model:ir.model,name:viin_project_gantt.model_ir_actions_act_window_view
+msgid "Action Window View"
+msgstr ""
+
+#. module: viin_project_gantt
+#: model:ir.model.fields,field_description:viin_project_gantt.field_project_task__bad_resource_allocation_task_alert
+msgid "Bad Resource Allocation Alert"
+msgstr "Cảnh báo phân bổ nguồn lực sai"
+
+#. module: viin_project_gantt
+#: model:ir.model.fields,field_description:viin_project_gantt.field_project_task__bad_resource_allocation_task_ids
+msgid "Bad Resource Allocation Tasks"
+msgstr "Nhiệm vụ có phân bổ nguồn lực sai"
+
+#. module: viin_project_gantt
+#: model:ir.model.fields,field_description:viin_project_gantt.field_project_task__depend_ids
+msgid "Depend Tasks"
+msgstr "Nhiệm vụ được phụ thuộc"
+
+#. module: viin_project_gantt
+#: model:ir.model.fields,field_description:viin_project_gantt.field_project_task__dependency_level
+msgid "Dependency Level"
+msgstr "Cấp độ Phụ thuộc"
+
+#. module: viin_project_gantt
+#: model:ir.model.fields,field_description:viin_project_gantt.field_project_task__depending_task_ids
+msgid "Depending Tasks"
+msgstr "Nhiệm vụ phụ thuộc"
+
+#. module: viin_project_gantt
+#: model:ir.model.fields,field_description:viin_project_gantt.field_project_task__depends_count
+msgid "Depends"
+msgstr "Phụ thuộc"
+
+#. module: viin_project_gantt
+#: model_terms:ir.ui.view,arch_db:viin_project_gantt.view_task_tree2
+msgid "Depends on"
+msgstr "Phụ thuộc vào"
+
+#. module: viin_project_gantt
+#: model:ir.model.fields,field_description:viin_project_gantt.field_ir_actions_act_window_view__display_name
+#: model:ir.model.fields,field_description:viin_project_gantt.field_project_task__display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: viin_project_gantt
+#: model:ir.model.fields,field_description:viin_project_gantt.field_ir_actions_act_window_view__id
+#: model:ir.model.fields,field_description:viin_project_gantt.field_project_task__id
+msgid "ID"
+msgstr ""
+
+#. module: viin_project_gantt
+#: model:ir.model.fields,field_description:viin_project_gantt.field_ir_actions_act_window_view____last_update
+#: model:ir.model.fields,field_description:viin_project_gantt.field_project_task____last_update
+msgid "Last Modified on"
+msgstr "Sửa lần cuối vào"
+
+#. module: viin_project_gantt
+#: model:ir.model.fields,field_description:viin_project_gantt.field_project_task__planned_date_end
+msgid "Planned End Date"
+msgstr "Ngày kết thúc dự kiến"
+
+#. module: viin_project_gantt
+#: model:ir.model.fields,field_description:viin_project_gantt.field_project_task__planned_date_start
+msgid "Planned Start Date"
+msgstr "Ngày bắt đầu dự kiến"
+
+#. module: viin_project_gantt
+#: model:ir.model.fields,field_description:viin_project_gantt.field_project_task__recursive_depend_ids
+msgid "Recursive Depend Tasks"
+msgstr "Phụ thuộc đệ quy"
+
+#. module: viin_project_gantt
+#: model:ir.model.fields,field_description:viin_project_gantt.field_project_task__recursive_depending_ids
+msgid "Recursive Depending Tasks"
+msgstr "Các nhiệm vụ phụ thuộc (trực tiếp và gián tiếp)"
+
+#. module: viin_project_gantt
+#: model:ir.model.fields,field_description:viin_project_gantt.field_project_task__resource_allocation
+msgid "Resource Allocation"
+msgstr "Phân bổ nguồn lực"
+
+#. module: viin_project_gantt
+#: model:ir.model,name:viin_project_gantt.model_project_task
+msgid "Task"
+msgstr "Nhiệm vụ"
+
+#. module: viin_project_gantt
+#: model_terms:ir.ui.view,arch_db:viin_project_gantt.task_search_view
+msgid "Task and dependencies"
+msgstr "Nhiệm vụ và các phụ thuộc của nó."
+
+#. module: viin_project_gantt
+#: model_terms:ir.ui.view,arch_db:viin_project_gantt.task_search_view
+msgid "Task and depending"
+msgstr "Nhiệm vụ và các phụ thuộc vào nó"
+
+#. module: viin_project_gantt
+#: model_terms:ir.ui.view,arch_db:viin_project_gantt.view_task_twgantt
+msgid "Tasks"
+msgstr "Nhiệm vụ"
+
+#. module: viin_project_gantt
+#: code:addons/viin_project_gantt/models/project_task.py:0
+#, python-format
+msgid ""
+"The Planned Start Date must be earlier or equal to the Planned End Date"
+msgstr "Ngày bắt đầu dự kiến phải trước Ngày kết thúc dự kiến"
+
+#. module: viin_project_gantt
+#: model:ir.model.constraint,message:viin_project_gantt.constraint_project_task_resource_allocation
+msgid "The Resource Allocation must not be greater than zero (0)."
+msgstr "Giá trị Phân bổ nguồn lực phải lớn hơn 0."
+
+#. module: viin_project_gantt
+#: model:ir.model.fields,help:viin_project_gantt.field_project_task__dependency_level
+msgid ""
+"The level of this task in dependency tree (e.g. if it depends on nothing, "
+"its dependency level will be zero (0)"
+msgstr ""
+"Cấp độ của nhiệm vụ này trong cây phụ thuộc (vd: nếu nó không phụ thuộc vào "
+"nhiệm vụ nào thì cấp độ phụ thuộc của nó là 0)."
+
+#. module: viin_project_gantt
+#: model:ir.model.fields,help:viin_project_gantt.field_project_task__bad_resource_allocation_task_ids
+msgid "The tasks of the same assignment with time range overlapping"
+msgstr "Nhiều nhiệm vụ được phân công cho một người cùng một khoảng thời gian"
+
+#. module: viin_project_gantt
+#: model:ir.model.fields,help:viin_project_gantt.field_project_task__recursive_depend_ids
+msgid ""
+"The tasks on which the current task recursively depends on (incl. direct and"
+" indirect dependencies)."
+msgstr "Các task mà task này phụ thuộc (trực tiếp và gián tiếp)"
+
+#. module: viin_project_gantt
+#: model:ir.model.fields,help:viin_project_gantt.field_project_task__depend_ids
+msgid "The tasks on which this task depends directly."
+msgstr "Những nhiệm vụ mà nhiệm vụ này trực tiếp phụ thuộc vào."
+
+#. module: viin_project_gantt
+#: model:ir.model.fields,help:viin_project_gantt.field_project_task__depending_task_ids
+msgid "The tasks that directly depend on this task."
+msgstr "Các nhiệm vụ phụ thuộc trực tiếp vào nhiệm vụ này."
+
+#. module: viin_project_gantt
+#: model:ir.model.fields,help:viin_project_gantt.field_project_task__resource_allocation
+msgid ""
+"The working time percentage that the resources assigned to this task could allocate for the task. This helps calculate Planned End Date more realistic.\n"
+"For example, 50% resource allocation will result the task to take 2 times against the planned hours for completion."
+msgstr ""
+"Phần trăm thời gian được dành ra để phân bổ cho nhiệm vụ này. Điều này giúp tính toán Ngày kết thúc dự kiến thực tế hơn.\n"
+"Ví dụ: Phân bổ 50% sẽ cho kết quả là nhiệm vụ cần gấp 2 lần số giờ dự kiến để hoàn thành."
+
+#. module: viin_project_gantt
+#: code:addons/viin_project_gantt/models/project_task.py:0
+#, python-format
+msgid ""
+"There is no working calendar specified for either the related project or the"
+" company. Please specify one before scheduling your tasks."
+msgstr ""
+"Không tìm thấy lịch làm việc được thiết lập cho dự án hoặc công ty tương "
+"ứng. Vui lòng thiết lập lịch làm việc trước khi ấn định và lập kế hoạch chọ "
+"các nhiệm vụ."
+
+#. module: viin_project_gantt
+#: code:addons/viin_project_gantt/models/project_task.py:0
+#, python-format
+msgid "You cannot create recursive dependencies between tasks."
+msgstr "Bạn không thể thiết lập phụ thuộc vòng tròn."
