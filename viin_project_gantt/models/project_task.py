@@ -52,7 +52,7 @@ class ProjectTask(models.Model):
     @api.depends('depend_ids', 'depend_ids.dependency_level')
     def _compute_dependency_level(self):
         for r in self:
-            # do not compute on view's onchange as it may get into circular recursion as the
+            # do not compute on view's onchange as it may get into circular recursion as the a
             # constrain `_check_circular_dependency` does its job after create/write only
             if isinstance(r.id, models.NewId):
                 r.dependency_level = 0
